@@ -7,6 +7,7 @@ bug-reports: "https://github.com/therain7/cycled/issues"
 depends: [
   "dune" {>= "3.20"}
   "ocaml"
+  "ppx_inline_test"
   "odoc" {with-doc}
 ]
 build: [

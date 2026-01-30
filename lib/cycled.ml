@@ -78,7 +78,7 @@ module Make (G : Graph) = struct
   let has_cycle graph =
     let rec f state = function
       | [] ->
-          false (* all node explored. no cycle *)
+          false (* all nodes explored. no cycle *)
       | node :: tl -> (
         match dfs graph state node with
         | None ->

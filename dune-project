@@ -12,4 +12,4 @@
 (package
  (name cycled)
  (synopsis "checking graphs for cycles")
- (depends ocaml))
+ (depends ocaml ppx_inline_test))
